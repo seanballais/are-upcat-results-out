@@ -6,11 +6,10 @@ from bs4 import BeautifulSoup
 
 
 if __name__ == '__main__':
-    # TODO: See if it better to move the hashes of the UPCAT results
-    #       site somewhere else like on an online server, so that we
-    #       can just compare checksums in this utility without worrying
-    #       about keeping a local copy of an old checksum of the results
-    #       site.
+    # TODO: See if it is better to move the hashes of the UPCAT results
+    #       site somewhere else like on an online server, so that we can
+    #       just compare checksums in this utility without worrying about
+    #       keeping a local copy of an old checksum of the results site.
     if not 1 <= len(sys.argv) <= 2:
         print('Incorrect number of arguments.')
         print('Usage:')
